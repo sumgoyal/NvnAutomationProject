@@ -23,14 +23,15 @@ public class HomePageTest extends TestBase {
 	}
 	
 	@BeforeMethod
-	public void setUp() {
+	public void setUp() throws InterruptedException {
 		initialization();
 		frontPage=new FrontPage();
 		loginPage=new LoginPage();
 		homePage=new HomePage();
 		frontPage.loginp();
-		loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-	}
+		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+		Thread.sleep(3000);
+		}
 	
 	@Test
 	public void verifyhomePageTitle() {
@@ -40,7 +41,7 @@ public class HomePageTest extends TestBase {
 	
 	@Test
 	public void verifySearchFunction() {
-		homePage.searchItem();
+		homePage.searchItem(prop.getProperty("item"));
 	}
 	
 	@Test
@@ -51,7 +52,8 @@ public class HomePageTest extends TestBase {
 	
 	
 	@AfterMethod
-	public void tearDown() {
+	public void tearDown() throws InterruptedException {
+		Thread.sleep(2000);
 		driver.quit();
 	}
 	

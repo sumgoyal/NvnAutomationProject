@@ -54,7 +54,8 @@ public class FrontPageTest extends TestBase {
 	}
 	
 	@AfterMethod
-	public void tearDown() {
+	public void tearDown() throws InterruptedException {
+		Thread.sleep(2000);
 		driver.quit();
 	}
 	

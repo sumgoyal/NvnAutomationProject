@@ -34,8 +34,8 @@ public class HomePage extends TestBase {
 		return driver.getTitle();
 	}
 	
-	public void searchItem() {
-		searchBar.sendKeys(prop.getProperty("item"));
+	public void searchItem(String item) {
+		searchBar.sendKeys(item);
 		searchBtn.click();
 		
 	}

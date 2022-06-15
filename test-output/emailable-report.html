@@ -8,48 +8,20 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">21,945</td><td></td><td></td></tr>
+<tr><th colspan="8">Nvn Application Automation Test Suite</th></tr>
+<tr><td><a href="#t0">NVN Automation Tests execution</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">97,395</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.nvn.testcases.HomePageTest</td><td><a href="#m0">verifyhomePageTitle</a></td><td rowspan="1">1655258244798</td><td rowspan="1">49</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.qa.nvn.testcases.HomePageTest</td><td><a href="#m1">verifyMonitors</a></td><td rowspan="1">1655258231485</td><td rowspan="1">579</td></tr><tr class="passedeven"><td><a href="#m2">verifySearchFunction</a></td><td rowspan="1">1655258238685</td><td rowspan="1">665</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Nvn Application Automation Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">NVN Automation Tests execution &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.qa.nvn.testcases.FrontPageTest</td><td><a href="#m0">validateClickOnLogin</a></td><td rowspan="1">1655260124149</td><td rowspan="1">656</td></tr><tr class="passedeven"><td><a href="#m1">validateClickOnRegister</a></td><td rowspan="1">1655260132298</td><td rowspan="1">773</td></tr><tr class="passedeven"><td><a href="#m2">verifyLogoTest</a></td><td rowspan="1">1655260141325</td><td rowspan="1">92</td></tr><tr class="passedeven"><td><a href="#m3">verifyTitle_FrontPage</a></td><td rowspan="1">1655260148603</td><td rowspan="1">12</td></tr><tr class="passedodd"><td rowspan="3">com.qa.nvn.testcases.HomePageTest</td><td><a href="#m4">verifyMonitors</a></td><td rowspan="1">1655260187048</td><td rowspan="1">701</td></tr><tr class="passedodd"><td><a href="#m5">verifySearchFunction</a></td><td rowspan="1">1655260200055</td><td rowspan="1">633</td></tr><tr class="passedodd"><td><a href="#m6">verifyhomePageTitle</a></td><td rowspan="1">1655260212184</td><td rowspan="1">16</td></tr><tr class="passedeven"><td rowspan="3">com.qa.nvn.testcases.LoginPageTest</td><td><a href="#m7">clickOnContinue</a></td><td rowspan="1">1655260174080</td><td rowspan="1">760</td></tr><tr class="passedeven"><td><a href="#m8">clickOnLoginBtn</a></td><td rowspan="1">1655260165650</td><td rowspan="1">1022</td></tr><tr class="passedeven"><td><a href="#m9">validateLoginPageTitle</a></td><td rowspan="1">1655260156107</td><td rowspan="1">11</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.qa.nvn.testcases.HomePageTest#verifyhomePageTitle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Incorrect HomePage expected [My Account] but found [Account Login]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at com.qa.nvn.testcases.HomePageTest.verifyhomePageTitle(HomePageTest.java:38)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.qa.nvn.testcases.HomePageTest#verifyMonitors</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.qa.nvn.testcases.HomePageTest#verifySearchFunction</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>NVN Automation Tests execution</h2><h3 id="m0">com.qa.nvn.testcases.FrontPageTest#validateClickOnLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.nvn.testcases.FrontPageTest#validateClickOnRegister</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.nvn.testcases.FrontPageTest#verifyLogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qa.nvn.testcases.FrontPageTest#verifyTitle_FrontPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.nvn.testcases.HomePageTest#verifyMonitors</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.nvn.testcases.HomePageTest#verifySearchFunction</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.qa.nvn.testcases.HomePageTest#verifyhomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.qa.nvn.testcases.LoginPageTest#clickOnContinue</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.qa.nvn.testcases.LoginPageTest#clickOnLoginBtn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.qa.nvn.testcases.LoginPageTest#validateLoginPageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
