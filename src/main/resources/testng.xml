@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nvn Application Automation Test Suite">
+
+	<test name="NVN Automation Tests execution">
+		<classes>
+			<class name="com.qa.nvn.testcases.FrontPageTest" />
+			<class name="com.qa.nvn.testcases.LoginPageTest" />
+			<class name="com.qa.nvn.testcases.HomePageTest" />
+
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
