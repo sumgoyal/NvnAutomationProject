@@ -1,0 +1,12 @@
+com\nvn\qa\pages\OrderHistory.class
+com\nvn\qa\pages\PhonesPage.class
+com\nvn\qa\ExtentReportListener\ExtentReportListener.class
+com\nvn\qa\pages\MonitorsPage.class
+com\nvn\qa\base\TestBase.class
+com\nvn\qa\pages\HomePage.class
+com\nvn\qa\pages\FrontPage.class
+com\nvn\qa\pages\LoginPage.class
+com\nvn\qa\util\TestUtil.class
+com\nvn\qa\pages\RegisterPage.class
+com\nvn\qa\pages\ShoppingCartPage.class
+com\nvn\qa\util\WebEventListener.class

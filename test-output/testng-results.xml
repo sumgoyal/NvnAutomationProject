@@ -1,137 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-15T07:58:37 IST" name="Nvn Application Automation Test Suite" finished-at="2022-06-15T08:00:15 IST" duration-ms="97395">
+  <suite started-at="2022-06-16T14:56:21 IST" name="Default suite" finished-at="2022-06-16T14:56:34 IST" duration-ms="13186">
     <groups>
     </groups>
-    <test started-at="2022-06-15T07:58:37 IST" name="NVN Automation Tests execution" finished-at="2022-06-15T08:00:15 IST" duration-ms="97395">
+    <test started-at="2022-06-16T14:56:21 IST" name="Default test" finished-at="2022-06-16T14:56:34 IST" duration-ms="13186">
       <class name="com.qa.nvn.testcases.FrontPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.nvn.testcases.FrontPageTest@793f29ff]" started-at="2022-06-15T07:58:37 IST" name="setUp" finished-at="2022-06-15T07:58:44 IST" duration-ms="6268" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.nvn.testcases.FrontPageTest@74e28667]" started-at="2022-06-16T14:56:21 IST" name="setUp" finished-at="2022-06-16T14:56:30 IST" duration-ms="8955" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateClickOnLogin()[pri:0, instance:com.qa.nvn.testcases.FrontPageTest@793f29ff]" started-at="2022-06-15T07:58:44 IST" name="validateClickOnLogin" finished-at="2022-06-15T07:58:44 IST" duration-ms="656" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateClickOnLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.nvn.testcases.FrontPageTest@793f29ff]" started-at="2022-06-15T07:58:44 IST" name="tearDown" finished-at="2022-06-15T07:58:47 IST" duration-ms="2912" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.nvn.testcases.FrontPageTest@793f29ff]" started-at="2022-06-15T07:58:47 IST" name="setUp" finished-at="2022-06-15T07:58:52 IST" duration-ms="4572" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateClickOnRegister()[pri:0, instance:com.qa.nvn.testcases.FrontPageTest@793f29ff]" started-at="2022-06-15T07:58:52 IST" name="validateClickOnRegister" finished-at="2022-06-15T07:58:53 IST" duration-ms="773" status="PASS">
+        <test-method signature="validateClickOnRegister()[pri:0, instance:com.qa.nvn.testcases.FrontPageTest@74e28667]" started-at="2022-06-16T14:56:30 IST" name="validateClickOnRegister" finished-at="2022-06-16T14:56:31 IST" duration-ms="1147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateClickOnRegister -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.nvn.testcases.FrontPageTest@793f29ff]" started-at="2022-06-15T07:58:53 IST" name="tearDown" finished-at="2022-06-15T07:58:56 IST" duration-ms="3141" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.nvn.testcases.FrontPageTest@793f29ff]" started-at="2022-06-15T07:58:56 IST" name="setUp" finished-at="2022-06-15T07:59:01 IST" duration-ms="5107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyLogoTest()[pri:0, instance:com.qa.nvn.testcases.FrontPageTest@793f29ff]" started-at="2022-06-15T07:59:01 IST" name="verifyLogoTest" finished-at="2022-06-15T07:59:01 IST" duration-ms="92" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.nvn.testcases.FrontPageTest@793f29ff]" started-at="2022-06-15T07:59:01 IST" name="tearDown" finished-at="2022-06-15T07:59:04 IST" duration-ms="3069" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.nvn.testcases.FrontPageTest@793f29ff]" started-at="2022-06-15T07:59:04 IST" name="setUp" finished-at="2022-06-15T07:59:08 IST" duration-ms="4112" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyTitle_FrontPage()[pri:0, instance:com.qa.nvn.testcases.FrontPageTest@793f29ff]" started-at="2022-06-15T07:59:08 IST" name="verifyTitle_FrontPage" finished-at="2022-06-15T07:59:08 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle_FrontPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.nvn.testcases.FrontPageTest@793f29ff]" started-at="2022-06-15T07:59:08 IST" name="tearDown" finished-at="2022-06-15T07:59:11 IST" duration-ms="2972" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.nvn.testcases.FrontPageTest@74e28667]" started-at="2022-06-16T14:56:31 IST" name="tearDown" finished-at="2022-06-16T14:56:34 IST" duration-ms="2943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.nvn.testcases.FrontPageTest -->
-      <class name="com.qa.nvn.testcases.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.nvn.testcases.HomePageTest@268f106e]" started-at="2022-06-15T07:59:37 IST" name="setUp" finished-at="2022-06-15T07:59:47 IST" duration-ms="9222" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyMonitors()[pri:0, instance:com.qa.nvn.testcases.HomePageTest@268f106e]" started-at="2022-06-15T07:59:47 IST" name="verifyMonitors" finished-at="2022-06-15T07:59:47 IST" duration-ms="701" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMonitors -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.nvn.testcases.HomePageTest@268f106e]" started-at="2022-06-15T07:59:47 IST" name="tearDown" finished-at="2022-06-15T07:59:50 IST" duration-ms="2964" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.nvn.testcases.HomePageTest@268f106e]" started-at="2022-06-15T07:59:50 IST" name="setUp" finished-at="2022-06-15T08:00:00 IST" duration-ms="9336" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySearchFunction()[pri:0, instance:com.qa.nvn.testcases.HomePageTest@268f106e]" started-at="2022-06-15T08:00:00 IST" name="verifySearchFunction" finished-at="2022-06-15T08:00:00 IST" duration-ms="633" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchFunction -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.nvn.testcases.HomePageTest@268f106e]" started-at="2022-06-15T08:00:00 IST" name="tearDown" finished-at="2022-06-15T08:00:03 IST" duration-ms="2963" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.nvn.testcases.HomePageTest@268f106e]" started-at="2022-06-15T08:00:03 IST" name="setUp" finished-at="2022-06-15T08:00:12 IST" duration-ms="8524" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyhomePageTitle()[pri:0, instance:com.qa.nvn.testcases.HomePageTest@268f106e]" started-at="2022-06-15T08:00:12 IST" name="verifyhomePageTitle" finished-at="2022-06-15T08:00:12 IST" duration-ms="16" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyhomePageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.nvn.testcases.HomePageTest@268f106e]" started-at="2022-06-15T08:00:12 IST" name="tearDown" finished-at="2022-06-15T08:00:15 IST" duration-ms="2955" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.nvn.testcases.HomePageTest -->
-      <class name="com.qa.nvn.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.nvn.testcases.LoginPageTest@5b247367]" started-at="2022-06-15T07:59:11 IST" name="setUp" finished-at="2022-06-15T07:59:16 IST" duration-ms="4507" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateLoginPageTitle()[pri:1, instance:com.qa.nvn.testcases.LoginPageTest@5b247367]" started-at="2022-06-15T07:59:16 IST" name="validateLoginPageTitle" finished-at="2022-06-15T07:59:16 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLoginPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.nvn.testcases.LoginPageTest@5b247367]" started-at="2022-06-15T07:59:16 IST" name="tearDown" finished-at="2022-06-15T07:59:18 IST" duration-ms="2859" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.nvn.testcases.LoginPageTest@5b247367]" started-at="2022-06-15T07:59:18 IST" name="setUp" finished-at="2022-06-15T07:59:25 IST" duration-ms="6657" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="clickOnLoginBtn()[pri:2, instance:com.qa.nvn.testcases.LoginPageTest@5b247367]" started-at="2022-06-15T07:59:25 IST" name="clickOnLoginBtn" finished-at="2022-06-15T07:59:26 IST" duration-ms="1022" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnLoginBtn -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.nvn.testcases.LoginPageTest@5b247367]" started-at="2022-06-15T07:59:26 IST" name="tearDown" finished-at="2022-06-15T07:59:29 IST" duration-ms="2809" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.nvn.testcases.LoginPageTest@5b247367]" started-at="2022-06-15T07:59:29 IST" name="setUp" finished-at="2022-06-15T07:59:34 IST" duration-ms="4590" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="clickOnContinue()[pri:3, instance:com.qa.nvn.testcases.LoginPageTest@5b247367]" started-at="2022-06-15T07:59:34 IST" name="clickOnContinue" finished-at="2022-06-15T07:59:34 IST" duration-ms="760" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnContinue -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.nvn.testcases.LoginPageTest@5b247367]" started-at="2022-06-15T07:59:34 IST" name="tearDown" finished-at="2022-06-15T07:59:37 IST" duration-ms="2984" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.nvn.testcases.LoginPageTest -->
-    </test> <!-- NVN Automation Tests execution -->
-  </suite> <!-- Nvn Application Automation Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -6,16 +6,21 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.nvn.qa.util.TestUtil;
+import com.nvn.qa.util.WebEventListener;
 
 public class TestBase {
 
 	public static Properties prop;
 	public static WebDriver driver;
 	FileInputStream ip;
+	public static EventFiringWebDriver e_driver;
+	public static WebEventListener eventListener;
 
 	
 	public TestBase() {
@@ -43,6 +48,11 @@ public class TestBase {
 			System.setProperty("webdriver.chrome.driver", "C:\\Sumit Stuff\\se2\\chromedriver.exe");
 			driver=new ChromeDriver();
 		}
+		
+		e_driver=new EventFiringWebDriver(driver);
+		eventListener=new WebEventListener();
+		e_driver.register(eventListener);
+		driver=e_driver;
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();

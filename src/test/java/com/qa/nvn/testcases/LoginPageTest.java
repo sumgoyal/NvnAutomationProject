@@ -2,6 +2,7 @@ package com.qa.nvn.testcases;
 
 import static org.testng.Assert.assertEquals;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -24,10 +25,11 @@ public class LoginPageTest extends TestBase {
 		super();
 	}
 	
-	
+	Logger log=Logger.getLogger(LoginPageTest.class);
 	@BeforeMethod
 	public void setUp() {
 		initialization();
+		log.info("Launching chrome browswer");
 		loginPage=new LoginPage();
 		frontPage=new FrontPage();
 		frontPage.loginp();
